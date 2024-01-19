@@ -28,6 +28,7 @@ const Principal: FC = () => {
     async function importSheet() {
         const input = document.createElement('input');
         input.type = 'file';
+        input.accept = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         input.style.display = 'none';
     
         input.addEventListener('change', (e) =>
