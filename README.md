@@ -19,3 +19,6 @@ $ npm install
 ```bash
 $ npm run dev
 ```
+
+## Link Deploy
+https://front-metrics-green.vercel.app/
